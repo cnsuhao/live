@@ -11,6 +11,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "groupsock", "groupsock\grou
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsageEnvironment", "UsageEnvironment\UsageEnvironment.vcxproj", "{D994B5E3-D3AA-455B-9E0C-1213EFAC34EB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mediaServer", "mediaServer\mediaServer.vcxproj", "{D2AE7904-6DC4-41BD-B8D8-4058F945681B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{18C4D758-E732-42DC-AA2D-7A40FC76E398} = {18C4D758-E732-42DC-AA2D-7A40FC76E398}
+		{BB0183C3-DA59-4A8D-A68F-F4054274D1B8} = {BB0183C3-DA59-4A8D-A68F-F4054274D1B8}
+		{77EDE4DB-67FA-4AA1-8383-117635C5DAD2} = {77EDE4DB-67FA-4AA1-8383-117635C5DAD2}
+		{D994B5E3-D3AA-455B-9E0C-1213EFAC34EB} = {D994B5E3-D3AA-455B-9E0C-1213EFAC34EB}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +59,14 @@ Global
 		{D994B5E3-D3AA-455B-9E0C-1213EFAC34EB}.Release|x64.Build.0 = Release|x64
 		{D994B5E3-D3AA-455B-9E0C-1213EFAC34EB}.Release|x86.ActiveCfg = Release|Win32
 		{D994B5E3-D3AA-455B-9E0C-1213EFAC34EB}.Release|x86.Build.0 = Release|Win32
+		{D2AE7904-6DC4-41BD-B8D8-4058F945681B}.Debug|x64.ActiveCfg = Debug|x64
+		{D2AE7904-6DC4-41BD-B8D8-4058F945681B}.Debug|x64.Build.0 = Debug|x64
+		{D2AE7904-6DC4-41BD-B8D8-4058F945681B}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2AE7904-6DC4-41BD-B8D8-4058F945681B}.Debug|x86.Build.0 = Debug|Win32
+		{D2AE7904-6DC4-41BD-B8D8-4058F945681B}.Release|x64.ActiveCfg = Release|x64
+		{D2AE7904-6DC4-41BD-B8D8-4058F945681B}.Release|x64.Build.0 = Release|x64
+		{D2AE7904-6DC4-41BD-B8D8-4058F945681B}.Release|x86.ActiveCfg = Release|Win32
+		{D2AE7904-6DC4-41BD-B8D8-4058F945681B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
