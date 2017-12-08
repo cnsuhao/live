@@ -1,0 +1,4 @@
+[submodule "live555"]
+	path = live555
+	url = https://github.com/mnplayer/live.git
+	branch = live555
